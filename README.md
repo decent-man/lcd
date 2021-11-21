@@ -22,7 +22,7 @@ The _**BSD**_ version of _ls_ does not support some of the flags of the _**GNU**
 The workaround for this was to install the entire _**GNU**_ `coreutils` on my mac just  for getting `lmd` to work correctly.
 So to solve this issue of portability I decided to write a binary app that does exactly what I needed ls to do but is also free from platform problems.
 
-![lcd](https://raw.githubusercontent.com/decent-man/lcd/v0.1/scrot/lcd.png)
+![lcd](https://github.com/decent-man/lcd/blob/central/scrot/lcd.png)
 
 It is not perfect by any means. e.g for directories with a lot of files it **will** fill up your screen. If possible I will find a way in the future to tackle this.
 
