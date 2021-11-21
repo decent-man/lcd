@@ -100,7 +100,7 @@ impl DirData {
 
 fn main() {
     let columns =  match term_size::dimensions() { Some((cols,_)) => cols, None => 0};
-    println!("{esc}[2J{esc}[1;1H", esc = 27 as char);
+    //println!("{esc}[2J{esc}[1;1H", esc = 27 as char);
     wrap!(&columns);
     DirData::from(env::current_dir().unwrap()).pretty_print(&columns);
     wrap!(&columns);
